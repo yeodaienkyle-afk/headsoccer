@@ -530,21 +530,21 @@ window.DOMHandler = class {
 		}
 		async CreateWorker(e, t) {
 			if (e.endsWith("supportcheck.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/supportcheck.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/supportcheck.js", t);
 			} else if (e.endsWith("waker.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/waker.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/waker.js", t);
 			} else if (e.endsWith("modernjscheck.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/modernjscheck.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/modernjscheck.js", t);
 			} else if (e.endsWith("main.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/main.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/main.js", t);
 			} else if (e.endsWith("jobworker.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/jobworker.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/jobworker.js", t);
 			} else if (e.endsWith("dispatchworker.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/dispatchworker.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/dispatchworker.js", t);
 			} else if (e.endsWith("c3main.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/c3main.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/c3main.js", t);
 			} else if (e.endsWith("box2d.wasm.js")) {
-				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@main/box2d.wasm.js", t);
+				return window.createworker2("https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/headsoccer@2590a4e3d981863c6d1b259fc60a241baf8834f9/box2d.wasm.js", t);
 			}
 			return window.createworker2(e, t);
 		}
